@@ -1,0 +1,116 @@
+.block {
+    height: 85px;
+    width: 60px;
+}
+
+.black_block {
+    background-color: #000000;
+
+}
+
+.white_block {
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.show_number {
+    text-align: center;
+    width: 30px;
+}
+
+.show_alpha {
+    text-align: center;
+    height: 60px;
+}
+
+.logout_btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.welcome-background-img {
+    background-image: url("../img/chessBg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    min-width: -webkit-fill-available;
+
+}
+
+.welcome-background-clr {
+    background-color: #636b6f;
+}
+
+.pageText {
+    color: #000000;
+}
+
+.description {
+    color: black;
+    border: 2px solid black;
+    height: 803px;
+    margin-top: -23px;
+ 
+}
+
+.pageHeading {
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 769px) {
+    .pageHeading {
+        font-size: 32px;
+    }
+    .description {
+        height: max-content ;
+        margin-top: 0px;
+    }
+    .pageText{
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 403px) {
+    .pageHeading {
+        font-size: 23px;
+    }
+    .description {
+        height: max-content ;
+        margin-top: 0px;
+    }
+}
+.clr_btn{
+    text-align: right;
+  
+}
+.decription-text{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+@media only screen and (max-width: 769px) {
+    .decription-text{
+        color: cornsilk;
+    }
+}
+.welcome-box{
+    border-width:5px;
+    border-style:inset; 
+    background-color: rgba(255,255,255,0.5);
+    color: #000000;
+}
+.welcome-box a{
+    color: #009933;    
+    font-weight: bold;
+}
+.welcome-box b{   
+    font-weight: bold;
+}
+
+
